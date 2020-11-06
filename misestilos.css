@@ -9,17 +9,17 @@ body{
 
 .menu{
     padding: 20px;
-    background-color: #005883;
-    width: 100%;
+    background: #005883;
+    width: 100%; 
+}
+.menu a{
     color: white;
 }
-
 .tabla{
-    width: 80%;
-    margin: 40px;
+    width: 90%;
+    margin: 60px;
 }
 
-.h1{
+h1{
     color: #005883;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
