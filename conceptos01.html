@@ -1,35 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Oscar Santos" />
+    <meta name="description" content="Esta es mi primera pagina web" />
+    <meta name="keywords" content="CSS3" />
+    <title>Para que sirve?</title>
     <link rel="stylesheet" href="misestilos.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
 </head>
+
 <body>
-    <h1 class="titulo">CSS3</h1>
-
-    <div class="menu">
-        <a href="inicio.html">  Inicio  </a> -
-        <a href="conceptos01.html">  Conceptos  </a> -
-        <a href="recuros01.html">  Recursos  </a> -
-        <a href="autoevaluacion.html">  Autoevaluacion  </a> -
-        <a href="autor.html">  Autor  </a>   -
-    </div>
-
-    
-
-    <h2>Conceptos</h2>
-    <div class="Conceptos">
+    <header>
+        <h1>CSS3</h1>
+    </header>
+    <nav>
+        <H3>OVI</H3>
         <ul>
-            <li><a href="conceptos02.html"> Para que sirve y caracteristicas principales </a></li>
-            <li><a href="conceptos03.html"> Ventajas y desventajas, y aplicaciones </a></li>
+            <li><a href="inicio.html"> Inicio </a></li>
+
+            <li><a href="#"> Conceptos <i class="icon ion-md-arrow-dropdown"></i> </a>
+                <ul>
+                    <li><a href="conceptos01.html"> Para que sirve? </a></li>
+                    <li><a href="conceptos02.html"> Caracteristicas principales </a></li>
+                    <li><a href="conceptos03.html"> Aplicaciones, ventajas y desventajas </a></li>
+                </ul>
+            </li>
+
+            <li><a href="#"> Recursos <i class="icon ion-md-arrow-dropdown"></i> </a>
+                <ul>
+                    <li><a href="recuros01.html"> Que es CSS3 </a></li>
+                    <li><a href="recursos02.html"> Introducción a CSS3 </a></li>
+                </ul>
+            </li>
+
+            <li><a href="#"> Autoevaluacion <i class="icon ion-md-arrow-dropdown"></i> </a>
+                <ul>
+                    <li><a href="autoevaluacion01.html"> Mini juego </a></li>
+                    <li><a href="autoevaluacion02.html"> Evaluacion sitio </a></li>
+                </ul>
+            </li>
+
+            <li><a href="autor.html"> Autor </a></li>
 
         </ul>
-    
+    </nav>
+    <br>
+    <section>
+        <h2>Para que sirve?</h2><br>
+        <p>El CSS sirve para definir la estética de un sitio web en un documento externo y eso mismo permite que
+            modificando ese documento (la hoja CSS) podamos cambiar la estética entera de un sitio web, el mismo sitio
+            web
+            puede variar totalmente de estética cambiando solo la CSS, sin tocar para nada los documentos HTML o jsp o
+            asp
+            que lo componen.<br>
 
+            CSS es un lenguaje utilizado para dar estética a un documento HTML (colores, tamaños de las fuentes, tamaños
+            de
+            elemento, con css podemos establecer diferentes reglas que indicarán como debe presentarse un documento.
+            Podemos
+            indicar propiedades como el color, el tamaño de la letra, el tipo de letra, si es negrita, si es itálica,
+            también se puede dar forma a otras cosas que no sean letras, como colores de fondo de una pagina, tamaños de
+            un
+            elemento (por ejemplo el alto y el ancho de una tabla.</p>
+        <br>
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/gB2kwdaSUtg" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <br>
+        <br>
+        DesarrolladorSoft. (07/05/2017). Recuperado de https://www.youtube.com/watch?v=gB2kwdaSUtg
+
+    </section>
+
+
+    <div class="footer">
+
+        Universidad Nacional Abierta y a Distancia – UNAD - Cead Valledupar
+        <br>
+        Carrera - Ingenieria de Sistemas
+        <br>
+        Curso - Diseños de sitios web
+        <br>
+        Código - 301122A_49
     </div>
-   <img src="css3.jpg" alt="CCS3">
+
+
+
+
 
 </body>
+
 </html>

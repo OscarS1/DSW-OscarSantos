@@ -1,35 +1,114 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Oscar Santos" />
+    <meta name="description" content="Esta es mi primera pagina web" />
+    <meta name="keywords" content="CSS3" />
+    <title>Autor</title>
     <link rel="stylesheet" href="misestilos.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
 </head>
+
 <body>
-    <h1 class="titulo">CSS3</h1>
-    <div class="menu">
-        <a href="inicio.html">   Inicio   </a> -
+    <header>
+        <h1>CSS3</h1>
+    </header>
+    <nav>
+        <H3>OVI</H3>
+        <ul>
+            <li><a href="inicio.html"> Inicio </a></li>
 
-        <a href="conceptos01.html">   Conceptos   </a> -
+            <li><a href="#"> Conceptos <i class="icon ion-md-arrow-dropdown"></i> </a>
+                <ul>
+                    <li><a href="conceptos01.html"> Para que sirve? </a></li>
+                    <li><a href="conceptos02.html"> Caracteristicas principales </a></li>
+                    <li><a href="conceptos03.html"> Aplicaciones, ventajas y desventajas </a></li>
+                </ul>
+            </li>
 
-        <a href="recuros01.html">   Recursos   </a> -
+            <li><a href="#"> Recursos <i class="icon ion-md-arrow-dropdown"></i> </a>
+                <ul>
+                    <li><a href="recuros01.html"> Que es CSS3 </a></li>
+                    <li><a href="recursos02.html"> Introducción a CSS3 </a></li>
+                </ul>
+            </li>
 
-        <a href="autoevaluacion.html">   Autoevaluacion   </a> -
+            <li><a href="#"> Autoevaluacion <i class="icon ion-md-arrow-dropdown"></i> </a>
+                <ul>
+                    <li><a href="autoevaluacion01.html"> Mini juego </a></li>
+                    <li><a href="autoevaluacion02.html"> Evaluacion sitio </a></li>
+                </ul>
+            </li>
 
-        <a href="autor.html">   Autor   </a>  -
+            <li><a href="autor.html"> Autor </a></li>
 
-    </div>       
-    
-    <h2>AUTOR</h2>
-    <ul>
-        <li>Nombre: Oscar David Santos Alvarado</li>
-        <li>Codigo: 301122</li>
-        <li>Programa: Ingenieria de sistemas</li>
-        <li>Correo: Oscarsantos935@gmail.com</li>
-        <li>Skype: Oscardav2012</li>
-    </ul>
+        </ul>
+    </nav>
+    <br>
+    <section>
+
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th colspan="4" class="text-center">Autor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Nombre:</th>
+                    <td>Oscar David Santos Alvarado</td>
+                    <th>Codigo</th>
+                    <td>1003241230</td>
+                </tr>
+                <tr>
+                    <th>Programa</th>
+                    <td>Ingenieria de Sistemas</td>
+                    <th>Email</th>
+                    <td>Oscarsantos935@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>Skype</th>
+                    <td colspan="3">Oscardav2012</td>
+                </tr>
+                <tr>
+                    <th colspan="4" class="text-center">Foto</th>
+                </tr>
+                <tr>
+                    <th colspan="4" class="text-center">
+                        <img src="Foto.jpg" alt="">
+                    </th>
+                </tr>
+
+
+            </tbody>
+
+
+        </table>
+    </section>
+
+
+
+
+    <div class="footer">
+
+        Universidad Nacional Abierta y a Distancia – UNAD - Cead Valledupar
+        <br>
+        Carrera - Ingenieria de Sistemas
+        <br>
+        Curso - Diseños de sitios web
+        <br>
+        Código - 301122A_49
+    </div>
+
+
+
 
 
 </body>
+
 </html>

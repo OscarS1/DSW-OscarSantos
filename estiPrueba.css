@@ -1,0 +1,29 @@
+.table-bordered{
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%;
+    height: 300px;
+}
+.table-bordered tr{
+    border: 1px solid black;
+    padding: 5px;
+}
+.table-bordered tr:nth-child(even){
+    background-color: white;
+    color: black
+}
+.table-bordered td,th{
+    border:1px solid black;
+    padding: 8px;
+    text-align: left;
+
+}
+.table-bordered th{
+    text-transform: uppercase;
+    font-family: 18px;
+    letter-spacing: 1px;
+}
+
