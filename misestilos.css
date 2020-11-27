@@ -13,6 +13,7 @@ body{
     width: 100%; 
 }
 .menu a{
+    padding: 30;
     color: white;
 }
 .tabla{
@@ -24,6 +25,3 @@ h1{
     color: #005883;
 }
 
-li{
-    padding: 15;
-}
