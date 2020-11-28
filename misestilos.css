@@ -132,7 +132,7 @@ nav ul li:hover{
 }
 .table-bordered th{
     text-transform: uppercase;
-    font-family: 18px;
+    font-family: 18;
     letter-spacing: 1px;
 }
 .text-center{
