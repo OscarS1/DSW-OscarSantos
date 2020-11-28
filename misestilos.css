@@ -132,7 +132,7 @@ nav ul li:hover{
 }
 .table-bordered th{
     text-transform: uppercase;
-    font-family: 18;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 1px;
 }
 .text-center{
