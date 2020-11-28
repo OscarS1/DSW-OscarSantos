@@ -142,7 +142,7 @@ nav ul li:hover{
 
 
 section{
-    width: 750px;
+    width: 900px;
     height: 750px;
     background: white;
     float: left;
@@ -150,8 +150,8 @@ section{
 
 
 aside{
-    width: 50px;
-    height: 150px;
+    width: 100px;
+    height: 185px;
     background: white;
     float: left;
 }
